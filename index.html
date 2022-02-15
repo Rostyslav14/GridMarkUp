@@ -10,116 +10,119 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-container container">
-            <div class="header_inner">
-                <img src="./assets/images/logo.png" alt="Medi">
+        <div class="header__container container">
+            <div class="header__menu-section">
+                <img class="header__logo-image" src="./assets/images/logo.png" alt="Medi">
             </div>
-            <div class="header-inner">+7 (123) 456 78 90</div>
-            <div class="header-inner header-salons-inner">Наши салоны</div>
-            <div class="header-inner">
-                <button class="white-text header-button btn-type1">Версия для слабовидящих</button>
+            <div class="header__menu-section">+7 (123) 456 78 90</div>
+            <div class="header__menu-section header__salons-inner">Наши салоны</div>
+            <div class="header__menu-section">
+                <button class="header__button btn-type-1">Версия для слабовидящих</button>
             </div>
-            <div class="header-inner">
-                <img src="./assets/images/vk.png" alt="VK">
+            <div class="header__menu-section">
+                <img class="header__image" src="./assets/images/vk.png" alt="VK">
             </div>
-            <div class="header-inner">
-                <img src="./assets/images/youtube.png" alt="youtube">
+            <div class="header__menu-section">
+                <img class="header__image" src="./assets/images/youtube.png" alt="youtube">
             </div>
-            <div class="header-inner">
-                <img src="./assets/images/facebook.png" alt="facebook">
+            <div class="header__menu-section">
+                <img class="header__image" src="./assets/images/facebook.png" alt="facebook">
             </div>
-            <div class="header-inner">
-                <img src="./assets/images/inst.png" alt="instagram">
+            <div class="header__menu-section">
+                <img class="header__image" src="./assets/images/inst.png" alt="instagram">
             </div>
         </div>
     </header>
     <section class="first-screen">
         <div class="container">
-            <nav class="first-screen-nav">
+            <nav class="first-screen__navigation">
                 <a href="#">Косметология</a>
                 <a href="#">Пластическая хирургия</a>
                 <a href="#">Стоматология</a>
                 <a href="#">Лазерная медицина</a>
                 <a href="#">Контакты</a>
-                <btn class="nav-btn">Запись на прием</btn>
+                <btn class="first-screen__button">Запись на прием</btn>
             </nav>
-            <div class="first-screen-content-container">
-                <div class="first-screen-text-container">
-                    <h1 class="white-text">Косметология</h1>
-                        <div class="white-text first-screen-text ">Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура — сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека благополучного и успешного.</div>
-                            <button class="white-text btn-type1 more-btn">Подробнее</button>
-                                <div class="fs-text-img-container">
-                                    <img src="./assets/images/arrowsimg.png" alt="LeftArrow RightArrow">
+            <div class="first-screen__cosmetology-container">
+                <div class="cosmetology-block">
+                    <h1 class="cosmetology-block__header">Косметология</h1>
+                        <div class="cosmetology-block__text">Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура — сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека благополучного и успешного.</div>
+                            <button class="btn-type-1 cosmetology-block__button">Подробнее</button>
+                                <div class="cosmetology-block__img-wrapper">
+                                    <img class="cosmetology-block__img" src="./assets/images/arrowsimg.png" alt="LeftArrow RightArrow">
                                 </div>
                 </div>
 
-                <div class="first-screen-img-container">
-                    <img  class="fs-image" src="./assets/images/fs-img.jpg" alt="Spa">
+                <div class="first-screen__img-container">
+                    <img  class="first-screen__image" src="./assets/images/fs-img.jpg" alt="Spa">
                 </div>
-                <div class="compl-proc fs-bottom-info">Комплексные процедуры</div>
-                <div class="centr-ob fs-bottom-info">Центр обучения</div>
-                <div class="vip-cl fs-bottom-info">VIP клиентам</div>
+                
+                <div class="first-screen__info first-screen__procedures">Комплексные процедуры</div>
+                <div class="first-screen__info first-screen__training">Центр обучения</div>
+                <div class="first-screen__info first-screen__vip-clients">VIP клиентам</div>
+                
             </div>
         </div>
     </section>
 
 
-    <section class="second-screen">
-        <div class="container second-screen-container">
-            <div class="cosmetology-block">
-                <div class="cosmetology-block-wrapper">
-                    <button class="btn-type2 white-text">Инновации</button>
-                        <h2 class="white-text">Мы практикуем новый курс процедур аппаратной<br> косметологии </h2>
-                <div class="more-container">
-                    <img src="./assets/images/RightsideFrame.png" alt="frame">
-                    <div class="white-text">ПОДРОБНЕЕ</div>
+    <section class="about-section">
+        <div class="container about-section__container">
+            <div class="company-cosmetology-info">
+                <div class="company-cosmetology-info__wrapper">
+                    <button class="btn-type-2 company-cosmetology-info__button">Инновации</button>
+                        <h2 class="company-cosmetology-info__header">Мы практикуем новый курс процедур аппаратной<br> косметологии </h2>
+                <div class="company-cosmetology-info__learn-more-wrapper">
+                    <img class="company-cosmetology-info__image" src="./assets/images/RightsideFrame.png" alt="frame">
+                    <div class="company-cosmetology__text">ПОДРОБНЕЕ</div>
                 </div>
                 </div>
                     <img src=".//assets/images/innovations.png">
             </div>
-            <div class="patents-block">
-                <div class="btn-wrap">
-                    <btn class="btn-type2 patents-btn white-text">Эстетика красоты</btn>
+
+            <div class="company-patents">
+                <div class="company-patents__button-wrapper">
+                    <btn class="btn-type-2 company-patents__button">Эстетика красоты</btn>
                 </div>
-                <div class="patents-block-wrapper">
-                    <div class="text-wrapper">
-                        <div class="patents-numbers">78</div>
-                        <div class="patents-text">Современных центра в странах СНГ</div>
+                <div class="company-patents__wrapper">
+                    <div class="company-patents__text-wrapper">
+                        <div class="company-patents__numbers">78</div>
+                        <div class="company-patents__text">Современных центра в странах СНГ</div>
                     </div>
 
-                    <div class="text-wrapper">
-                        <div class="patents-numbers">78</div>
-                        <div class="patents-text">Современных центра в странах СНГ</div>
+                    <div class="company-patents__text-wrapper">
+                        <div class="company-patents__numbers">78</div>
+                        <div class="company-patents__text">Современных центра в странах СНГ</div>
                     </div>
 
-                    <div class="unique-text-wrapper text-wrapper">
-                        <div class="unique-patents-numbers">20</div>
-                        <div class="unique-patents-text">Уникальных патентов в области косметологии</div>
+                    <div class="company-patents__text-wrapper">
+                        <div class="company-patents__numbers company-patents__styled-text">20</div>
+                        <div class=" company-patents__text company-patents_styled-text">Уникальных патентов в области косметологии</div>
                     </div>
 
-                    <div class="text-wrapper">
-                        <div class="patents-numbers">78</div>
-                        <div class="patents-text">Современных центра в странах СНГ</div>
+                    <div class="company-patents__text-wrapper">
+                        <div class="company-patents__numbers">78</div>
+                        <div class="company-patents__text">Современных центра в странах СНГ</div>
                     </div>
-                    <img src="./assets/images/patent-image.png" alt="Patent">
+                    <img class="company-patents__image"src="./assets/images/patent-image.png" alt="Patent">
                 </div>
 
             </div>
-            <div class="news-block">
-                <div><btn class="btn-type1 news-btn white-text">Новости</btn></div>
-                    <div class="white-text">Почему рекомендуется посещать профессионального косметолога. Мнение специалистов центра</div>
-                    <div class="white-text">Стандартизация деятельности клиник в соответствии с ISO 9001:2015.</div>
-                    <div class="white-text">Индивидуальный подход к каждому пациенту и подбор оптимальных косметологических методик.</div>
+            <div class="company-news">
+                <div class="company-news__text"><btn class="btn-type-1 company-news__button">Новости</btn></div>
+                    <div class="company-news__text ">Почему рекомендуется посещать профессионального косметолога. Мнение специалистов центра</div>
+                    <div class=" company-news__text ">Стандартизация деятельности клиник в соответствии с ISO 9001:2015.</div>
+                    <div class="company-news__text ">Индивидуальный подход к каждому пациенту и подбор оптимальных косметологических методик.</div>
                 
 
             </div>
-            <div class="recomendation-block">
-                <h3>Почему рекомендуется посещать профессионального косметолога. Мнение специалистов центра</h3>
-                <ul> 
-                    <li class="styled-list">Процедуры аппаратной косметологии на оборудовании экспертного класса от ведущих мировых производителей могут проводиться в любом возрасте и решать широкий спектр проблем: возрастные изменения, покраснения, акне и купероз, потеря тонуса и упругости кожи, отечность, целлюлит и т. п.</li>
-                    <li class="styled-list">С помощью инъекционных методик мы можем разгладить морщины, провести объёмное моделирование, увлажнить кожу, ввести активные вещества в поверхностные и средние слои кожи, запустить процессы омоложения.</li>
-                    <li class="styled-list">Лазерное и фотоомоложение помогут запустить процесс синтеза собственного коллагена, улучшить светооптические свойства кожи, а также получить максимальный эффект подтяжки лица без уколов и длительного восстановительного периода.</li>
-                    <li class="styled-list">Курс процедур лазерной эпиляции поможет навсегда избавиться от проблемы нежелательных волос.</li>
+            <div class="company-recomendation">
+                <h3 class="company-recomendation__header">Почему рекомендуется посещать профессионального косметолога. Мнение специалистов центра</h3>
+                <ul class="company-recomendation__list"> 
+                    <li class="company-recomendation__list-item">Процедуры аппаратной косметологии на оборудовании экспертного класса от ведущих мировых производителей могут проводиться в любом возрасте и решать широкий спектр проблем: возрастные изменения, покраснения, акне и купероз, потеря тонуса и упругости кожи, отечность, целлюлит и т. п.</li>
+                    <li class="company-recomendation__list-item">С помощью инъекционных методик мы можем разгладить морщины, провести объёмное моделирование, увлажнить кожу, ввести активные вещества в поверхностные и средние слои кожи, запустить процессы омоложения.</li>
+                    <li class="company-recomendation__list-item">Лазерное и фотоомоложение помогут запустить процесс синтеза собственного коллагена, улучшить светооптические свойства кожи, а также получить максимальный эффект подтяжки лица без уколов и длительного восстановительного периода.</li>
+                    <li class="company-recomendation__list-item">Курс процедур лазерной эпиляции поможет навсегда избавиться от проблемы нежелательных волос.</li>
                 </ul>
 
             </div>
